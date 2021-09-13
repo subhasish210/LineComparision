@@ -35,8 +35,7 @@ namespace Day3
             Console.WriteLine("Length of Line2 as per provided points is: " + lengthOfL2 + " units.");
             string lengthOfLineTwo = Convert.ToString(lengthOfL2); //converting data type of variable from double to String so that we can compare using EQUAL function
 
-            //.Equals method is applicable only on String data types.
-            //.Equals method is used to determine whether two String objects have the same value or not.
+           
             int status = lengthOfLineOne.CompareTo(lengthOfLineTwo);
 
             if (status > 0) // if lengthOfLineOne > lengthOfLineTwo, it returns positive number
